@@ -27,6 +27,10 @@
         height: 47px;
         border-radius: 10px;
         background: $c-blue-very-dark;
+
+        &:hover {
+            animation: link-hover 1000ms forwards;
+        }
     }
 }
 

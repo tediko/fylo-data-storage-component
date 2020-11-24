@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@keyframes link-hover {
+  0% {
+  }
+  100% {
+    transform: rotate(360deg);
+    background: #2d43a4;
+  }
+}
+
 .container {
   display: flex;
   flex-flow: column;
@@ -91,6 +100,10 @@ body {
   height: 47px;
   border-radius: 10px;
   background: #0c122c;
+}
+
+.header__link:hover {
+  animation: link-hover 1000ms forwards;
 }
 
 /* Header media queries */

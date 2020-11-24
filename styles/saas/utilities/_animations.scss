@@ -1,0 +1,7 @@
+@keyframes link-hover {
+    0% {}
+    100% {
+        transform: rotate(360deg);
+        background: lighten($c-blue-very-dark, 30);
+    }
+}
