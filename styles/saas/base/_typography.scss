@@ -21,6 +21,9 @@ body {
 /* Global styles media queries */
 @media (min-width: 900px) {
     body {
-        flex-flow: row;
+        background: url('../../assets/img/bg-desktop.png'), $c-blue-very-dark;
+        background-size: initial;
+        background-position: bottom;
+        background-repeat: no-repeat;
     }
 }
