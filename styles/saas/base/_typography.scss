@@ -27,3 +27,10 @@ body {
         background-repeat: no-repeat;
     }
 }
+
+@media (min-width: 1441px) {
+    body {
+        background-size: 100%;
+        background-position-y: 120%;
+    }
+}
