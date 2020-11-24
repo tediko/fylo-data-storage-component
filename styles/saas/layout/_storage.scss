@@ -94,3 +94,32 @@
         }
     }
 }
+
+@media (min-width: 900px) {
+    .storage {
+        &__container {
+            align-items: flex-start;
+            max-width: 540px;
+        }
+
+        &__current {
+            top: -50px;
+            right: 32px;
+            bottom: unset;
+            left: unset;
+            transform: none;
+
+            &::before {
+                position: absolute;
+                content: '';
+                bottom: -23px;
+                right: 0;
+                height: 0px;
+                width: 0px;
+                border-color: #fff transparent;
+                border-style: solid;
+                border-width: 35px 0px 0px 35px;
+            }
+        }
+    }
+}
