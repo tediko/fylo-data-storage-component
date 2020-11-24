@@ -120,6 +120,8 @@ body {
 .header {
   width: 100%;
   animation: header-slide 1300ms forwards;
+  animation-delay: 200ms;
+  opacity: 0;
 }
 
 .header__container {
