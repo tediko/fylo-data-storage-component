@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../saas/main.scss",
+        "../saas/utilities/_variables.scss",
+        "../saas/base/_reset.scss",
+        "../saas/base/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
