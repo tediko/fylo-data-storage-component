@@ -5,7 +5,8 @@
         "../saas/main.scss",
         "../saas/utilities/_variables.scss",
         "../saas/base/_reset.scss",
-        "../saas/base/_typography.scss"
+        "../saas/base/_typography.scss",
+        "../saas/layout/_header.scss"
     ],
     "names": [],
     "file": "main.css"
