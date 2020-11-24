@@ -60,6 +60,14 @@ body {
   background: #0c122c;
 }
 
+/* Header media queries */
+@media (min-width: 481px) {
+  .header__container {
+    max-width: 431px;
+    margin: 0 auto;
+  }
+}
+
 .storage {
   width: 100%;
   margin-top: 18px;
