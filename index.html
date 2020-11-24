@@ -7,6 +7,7 @@
   <title>Frontend Mentor | Fylo data storage component</title>
 </head>
 <body>
+  <!-- Header -->
   <header class="header">
     <img src="assets/img/logo.svg" alt="storage logo">
     <nav class="header__nav">
@@ -17,12 +18,18 @@
       </ul>
     </nav>
   </header>
-<!-- 
-  You’ve used 815 GB of your storage
 
-  185 GB Left
-  
-  0 GB
-  1000 GB -->
+  <!-- Storage -->
+  <div class="storage">
+    <p class="storage__text">You’ve used <span>815 GB</span> of your storage</p>
+    <div class="storage__capacity">
+      <div class="storage__progress"></div>
+    </div>
+    <div class="storage__value-spread">
+      <p class="storage__value">0 GB</p>
+      <p class="storage__value">1000 GB</p>
+    </div>
+    <p class="storage__current"><span>185</span> GB Left</p>
+  </div>
 </body>
 </html>
