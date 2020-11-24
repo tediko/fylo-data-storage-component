@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .container {
+    flex-flow: row;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +46,10 @@ body {
 /* Global styles media queries */
 @media (min-width: 900px) {
   body {
-    flex-flow: row;
+    background: url("../../assets/img/bg-desktop.png"), #0c122c;
+    background-size: initial;
+    background-position: bottom;
+    background-repeat: no-repeat;
   }
 }
 
@@ -69,9 +88,18 @@ body {
 
 /* Header media queries */
 @media (min-width: 481px) {
-  .header__container {
+  .header {
     max-width: 431px;
+  }
+  .header__container {
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .header {
+    max-width: 350px;
+    margin-right: 30px;
   }
 }
 
@@ -161,16 +189,21 @@ body {
 
 /* Storage media queries */
 @media (min-width: 481px) {
-  .storage__container {
+  .storage {
     max-width: 431px;
+  }
+  .storage__container {
     margin: 0 auto;
   }
 }
 
 @media (min-width: 900px) {
+  .storage {
+    align-self: flex-end;
+    max-width: 100%;
+  }
   .storage__container {
     align-items: flex-start;
-    max-width: 540px;
   }
   .storage__current {
     top: -50px;
