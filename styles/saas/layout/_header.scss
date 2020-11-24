@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+
+    &__container {
+        height: 200px;
+        margin: 0 25px;
+        padding: 39px 40px;
+        background: $c-blue-dark;
+        border-radius: 10px;
+        border-top-right-radius: 100px;
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 30px;
+
+        * + * { /* Lobotomized owl selector */
+            margin-left: 18px;
+        }
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 47px;
+        height: 47px;
+        border-radius: 10px;
+        background: $c-blue-very-dark;
+    }
+}

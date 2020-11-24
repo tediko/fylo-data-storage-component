@@ -17,6 +17,7 @@ html {
 body {
   position: relative;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -24,5 +25,38 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.header__container {
+  height: 200px;
+  margin: 0 25px;
+  padding: 39px 40px;
+  background: #1d2c67;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+}
+
+.header__list {
+  display: flex;
+  margin-top: 30px;
+}
+
+.header__list * + * {
+  /* Lobotomized owl selector */
+  margin-left: 18px;
+}
+
+.header__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47px;
+  height: 47px;
+  border-radius: 10px;
+  background: #0c122c;
 }
 /*# sourceMappingURL=main.css.map */
