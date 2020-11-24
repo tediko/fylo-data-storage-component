@@ -33,9 +33,17 @@
 /* Header media queries */
 @media (min-width: 481px) {
     .header {
+        max-width: 431px;
+
         &__container {
-            max-width: 431px;
             margin: 0 auto;
         }
+    }
+}
+
+@media (min-width: 900px) {
+    .header {
+        max-width: 350px;
+        margin-right: 30px;
     }
 }
