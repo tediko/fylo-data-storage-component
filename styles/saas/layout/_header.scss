@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    animation: header-slide 1000ms forwards;
 
     &__container {
         height: 200px;

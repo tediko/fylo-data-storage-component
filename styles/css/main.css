@@ -8,6 +8,17 @@
   }
 }
 
+@keyframes header-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .container {
   display: flex;
   flex-flow: column;
@@ -71,6 +82,7 @@ body {
 
 .header {
   width: 100%;
+  animation: header-slide 1000ms forwards;
 }
 
 .header__container {
