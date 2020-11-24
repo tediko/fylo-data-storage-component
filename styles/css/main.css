@@ -27,6 +27,13 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+/* Global styles media queries */
+@media (min-width: 900px) {
+  body {
+    flex-flow: row;
+  }
+}
+
 .header {
   width: 100%;
 }
