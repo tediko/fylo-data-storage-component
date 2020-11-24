@@ -9,27 +9,31 @@
 <body>
   <!-- Header -->
   <header class="header">
-    <img src="assets/img/logo.svg" alt="storage logo">
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item"><a href="#" class="header__link"><img src="assets/img/icon-document.svg" alt="document icon"></a></li>
-        <li class="header__item"><a href="#" class="header__link"><img src="assets/img/icon-folder.svg" alt="folder icon"></a></li>
-        <li class="header__item"><a href="#" class="header__link"><img src="assets/img/icon-upload.svg" alt="upload icon"></a></li>
-      </ul>
-    </nav>
+    <div class="header__container">
+      <img src="assets/img/logo.svg" alt="storage logo">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item"><a href="#" class="header__link"><img src="assets/img/icon-document.svg" alt="document icon"></a></li>
+          <li class="header__item"><a href="#" class="header__link"><img src="assets/img/icon-folder.svg" alt="folder icon"></a></li>
+          <li class="header__item"><a href="#" class="header__link"><img src="assets/img/icon-upload.svg" alt="upload icon"></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!-- Storage -->
   <div class="storage">
-    <p class="storage__text">You’ve used <span>815 GB</span> of your storage</p>
-    <div class="storage__capacity">
-      <div class="storage__progress"></div>
+    <div class="storage__container">
+      <p class="storage__text">You’ve used <span>815 GB</span> of your storage</p>
+      <div class="storage__capacity">
+        <div class="storage__progress"></div>
+      </div>
+      <div class="storage__value-spread">
+        <p class="storage__value">0 GB</p>
+        <p class="storage__value">1000 GB</p>
+      </div>
+      <p class="storage__current"><span>185</span> GB Left</p>
     </div>
-    <div class="storage__value-spread">
-      <p class="storage__value">0 GB</p>
-      <p class="storage__value">1000 GB</p>
-    </div>
-    <p class="storage__current"><span>185</span> GB Left</p>
   </div>
 </body>
 </html>
