@@ -88,8 +88,8 @@
 /* Storage media queries */
 @media (min-width: 481px) {
     .storage {
+        max-width: 431px;
         &__container {
-            max-width: 431px;
             margin: 0 auto;
         }
     }
@@ -97,9 +97,11 @@
 
 @media (min-width: 900px) {
     .storage {
+        align-self: flex-end;
+        max-width: 100%;
+
         &__container {
             align-items: flex-start;
-            max-width: 540px;
         }
 
         &__current {
